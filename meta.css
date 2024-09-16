@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+    width: 80%; 
+    background-color: #222;
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+}
+.titil{ 
+    text-align: center;
+    text-shadow: 10px 5px 30px bisque,-10px -5px 30px bisque;
+    text-transform: uppercase;
+    font-size: 25px;
+}

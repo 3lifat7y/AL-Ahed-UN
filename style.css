@@ -1,0 +1,87 @@
+body{
+    margin: auto;
+    width: 80%; 
+    background-color: #222;
+    color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.titil{ 
+    text-align: center;
+    text-shadow: 10px 5px 30px bisque,-10px -5px 30px bisque;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.photo{
+box-shadow: 10px 10px 20px rgba(44, 139, 218, 0.67),-10px -10px 20px rgba(44, 139, 218, 0.67);
+border: 5px solid rgba(44, 139, 218, 0.67);
+border-radius: 40px;
+margin-top: 50px;
+}
+.Tinfo{
+text-transform: uppercase;
+}
+.log{
+    text-align: center;
+    text-shadow:  10px 5px 30px bisque,-10px -5px 30px bisque;
+}
+.input{
+    text-align: center;
+}
+div input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: #3d393c;
+    color: #fff;
+    padding: 7px ;
+    padding-right: 100px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+div button{
+    color: bisque;
+    background-color: rgba(44, 139, 218, 0.67);
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+div label{
+    text-shadow: 10px 5px 40px bisque,-10px -5px 40px bisque;
+}
+button:focus{
+    background-color: #53a3e43b;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+input:focus{
+    transform: scale(1.1);
+}
+div a{
+    text-shadow: 10px 5px 30px rgba(65, 167, 222, 0.98),-10px -5px 30px rgba(65, 167, 222, 0.98);
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgba(65, 167, 222, 0.98);
+    text-decoration-line: none;
+}
+div ul li{
+    padding: 10px;
+}
+p {
+    text-align: center;
+}
+p a{
+    color: rgba(65, 167, 222, 0.98);
+    text-decoration-line: none;
+    padding: 10px;
+    border: 5px solid #53a3e43b;
+    color: bisque;
+    background-color: #53a3e43b;
+    border-radius: 40px;
+}
